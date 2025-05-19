@@ -41,6 +41,6 @@ pytest -s
 
 ```
 tests/test_login.py::test_login[admin-password-успешно] PASSED
-tests/test_login.py::test_login[wronguser-password-неверно] PASSED
-tests/test_login.py::test_login[admin-wrongpass-неверно] PASSED
+tests/test_login.py::test_login[wronguser-password-неверно] FAILED
+tests/test_login.py::test_login[admin-wrongpass-неверно] FAILED
 ```
